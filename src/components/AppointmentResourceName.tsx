@@ -2,7 +2,7 @@ import React, { FC } from "react";
 import { AppointmentResource } from "../types";
 import { useResource } from "../hooks";
 import { Alert, Loader, Title } from "@mantine/core";
-import { handleApiErrors } from "@hive/esm-core-api";
+import { handleApiErrors } from "@havena/esm-core-api";
 
 type Props = {
   resource: AppointmentResource;

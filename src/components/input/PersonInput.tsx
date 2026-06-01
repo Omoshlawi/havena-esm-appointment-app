@@ -1,4 +1,4 @@
-import { EmptyState } from "@hive/esm-core-components";
+import { EmptyState } from "@havena/esm-core-components";
 import { Loader, Select, SelectProps } from "@mantine/core";
 import { IconSearch } from "@tabler/icons-react";
 import React from "react";

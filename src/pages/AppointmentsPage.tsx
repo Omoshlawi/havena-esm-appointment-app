@@ -1,4 +1,4 @@
-import { PiletApi } from "@hive/esm-shell-app";
+import { PiletApi } from "@havena/esm-shell-app";
 import React, { FC, useMemo } from "react";
 import { useAppointments } from "../hooks";
 import { Appointment } from "../types";
@@ -20,7 +20,7 @@ import {
   DataTableColumnHeader,
   StateFullDataTable,
   TablerIcon,
-} from "@hive/esm-core-components";
+} from "@havena/esm-core-components";
 import { RRule } from "rrule";
 import AppointmentExpandedRow from "../components/AppointmentExpandedRow";
 import { getPriorityColor, getStatusColor } from "../utils/helpers";

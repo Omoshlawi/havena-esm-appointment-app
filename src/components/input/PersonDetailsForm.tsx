@@ -3,7 +3,7 @@ import { Controller, SubmitHandler, useForm } from "react-hook-form";
 import { PersonFormData } from "./input-resources";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { Personvalidator } from "./input-resources";
-import { handleApiErrors, Person } from "@hive/esm-core-api";
+import { handleApiErrors, Person } from "@havena/esm-core-api";
 import { showNotification } from "@mantine/notifications";
 import { usePersonApi } from "./input-resources";
 import { Button, Group, Select, Stack, TextInput } from "@mantine/core";

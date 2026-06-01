@@ -5,7 +5,7 @@ import {
   AppointmentsValidator,
   AppointmentTypeValidator,
 } from "../utils/validation";
-import { PiletApi } from "@hive/esm-shell-app";
+import { PiletApi } from "@havena/esm-shell-app";
 
 export type AppointmentParticipantFormData = z.infer<
   typeof AppointmentParticipantValidator

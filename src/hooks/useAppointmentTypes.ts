@@ -1,4 +1,4 @@
-import { apiFetch, APIFetchResponse, mutate } from "@hive/esm-core-api";
+import { apiFetch, APIFetchResponse, mutate } from "@havena/esm-core-api";
 import useSWR from "swr";
 import { AppointmentFormData, AppointmentType } from "../types";
 

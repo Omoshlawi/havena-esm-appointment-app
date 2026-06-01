@@ -5,7 +5,7 @@ import {
   mutate,
   Person,
   User,
-} from "@hive/esm-core-api";
+} from "@havena/esm-core-api";
 import { useDebouncedValue } from "@mantine/hooks";
 import { useMemo, useState } from "react";
 import useSWR from "swr";

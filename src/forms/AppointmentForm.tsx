@@ -11,7 +11,7 @@ import { useAppointmentsApi, useSearchPeople, useSearchUser } from "../hooks";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { AppointmentsValidator } from "../utils/validation";
 import { showNotification } from "@mantine/notifications";
-import { handleApiErrors, parseDate } from "@hive/esm-core-api";
+import { handleApiErrors, parseDate } from "@havena/esm-core-api";
 import { useMediaQuery } from "@mantine/hooks";
 import AppointmentBasicStep from "./steps/AppointmentBasicStep";
 import AppointmentRruleStep from "./steps/AppointmentRruleStep";

@@ -13,7 +13,7 @@ import {
 import React, { FC } from "react";
 import { Controller, useFormContext } from "react-hook-form";
 import { AppointmentFormData } from "../../types";
-import { TablerIcon } from "@hive/esm-core-components";
+import { TablerIcon } from "@havena/esm-core-components";
 import { useSearchPeople } from "../../hooks";
 import ParticipantPersonInput from "./ParticipantPersonInput";
 

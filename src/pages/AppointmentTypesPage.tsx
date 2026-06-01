@@ -1,4 +1,4 @@
-import { PiletApi } from "@hive/esm-shell-app";
+import { PiletApi } from "@havena/esm-shell-app";
 import React, { FC } from "react";
 import { AppointmentType } from "../types";
 import AppointmentTypeForm from "../forms/AppointmentTypeForm";
@@ -10,7 +10,7 @@ import {
   DataTableColumnHeader,
   StateFullDataTable,
   TablerIcon,
-} from "@hive/esm-core-components";
+} from "@havena/esm-core-components";
 import { useAppointmentTypes } from "../hooks";
 type AppointmentTypesPageProps = Pick<PiletApi, "launchWorkspace">;
 

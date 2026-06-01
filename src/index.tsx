@@ -1,7 +1,7 @@
 import * as React from "react";
-import type { PiletApi } from "@hive/esm-shell-app";
+import type { PiletApi } from "@havena/esm-shell-app";
 import { Appointments, AppointmentTypes } from "./pages";
-import { HeaderLink } from "@hive/esm-core-components";
+import { HeaderLink } from "@havena/esm-core-components";
 import PublicListingBookAppointment from "./components/PublicListingBookAppointment";
 import { AdminHeaderLink } from "./components/links";
 
